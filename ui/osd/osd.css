@@ -119,8 +119,14 @@ ul.no-bul{
   color: #777777;
 }
 
+:link, :visited{
+  color: #559ccb;
+  text-decoration: underline;
+}
+
 em{
-  color:#559ccb
+  color:#559ccb;
+  font-weight: bold
 }
 
 .slide{
@@ -232,4 +238,20 @@ img#m05, img#m06, img#m07 {
 
 #navLinks a#toggle{
   background-image: url(assets/toggle.png);
+}
+
+.top-marg-1{
+  margin-top: 1em;
+}
+
+.top-marg-2{
+  margin-top: 2em;
+}
+
+.top-marg-3{
+  margin-top: 3em;
+}
+
+.top-marg-4{
+  margin-top: 4em;
 }

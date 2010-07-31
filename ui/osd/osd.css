@@ -74,7 +74,9 @@ div#controls form {position: absolute; bottom: 0; right: 0; width: 100%;
 #controls #navList {height: 1em;}
 #controls #navList #jumplist {position: absolute; bottom: 0; right: 0; background: #DDD; color: #227;}
 
-#currentSlide {text-align: center; font-size: 0.5em; color: #449;}
+#currentSlide {text-align: left; font-size: 0.4em; color: #999;
+left:1em;
+}
 
 /*
 #slide0 {padding-top: 3.5em; font-size: 90%;}
@@ -114,8 +116,7 @@ ul.no-bul{
   list-style: none;
 }
 
-.deemph,
-#currentSlide{
+.deemph{
   color: #777777;
 }
 
@@ -156,7 +157,7 @@ em{
   font-weight:bold;
 }
 
-.incremental, .incremental *, .incremental *:after {color:#c7c7c7;}
+.incremental, .incremental *, .incremental *:after {color:#ddd;}
 
 .slide.full{
   padding: 0;
@@ -254,4 +255,8 @@ img#m05, img#m06, img#m07 {
 
 .top-marg-4{
   margin-top: 4em;
+}
+
+.current .inconsistent{
+  text-decoration: blink;
 }

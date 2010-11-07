@@ -140,6 +140,29 @@ em{
   margin: 0 auto;
 }
 
+.slide ul.compared li{
+  float: left;
+  width: 33.3%;
+  list-style: none;
+  padding: 0;
+}
+
+.slide ul.compared{
+  margin: 0 auto;
+}
+
+.slide ul.compared ul{
+  margin: 0;
+  padding: 0;
+}
+
+.slide ul.compared ul li{
+  float: none;
+  width: auto;
+  list-style: disc;
+  padding:0.5em 1em;
+}
+
 .slide li{
   list-style-position:inside;
   padding:0.5em 1em;
